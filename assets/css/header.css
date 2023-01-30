@@ -1,0 +1,36 @@
+header {
+  height: 60px;
+  width: 99vw;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/834/435/original/beautiful-space-background-vector.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.div1 {
+  height: 99%;
+  width: 30%;
+  color: whitesmoke;
+  font-weight: 2rem;
+  display: flex;
+  align-items: center; }
+
+.div2 {
+  height: 99%;
+  width: 50%; }
+  .div2 ul {
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: end;
+    align-items: center; }
+    .div2 ul li a {
+      margin-top: 10px;
+      color: white;
+      font-size: large;
+      text-decoration: none;
+      margin: 5px; }

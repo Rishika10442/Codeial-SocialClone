@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box; }
+
+li {
+  margin: 5px;
+  border-bottom: 1px solid black; }
+
+#username {
+  background-color: aquamarine;
+  width: auto; }
+
+#home-container {
+  height: 70%;
+  width: 99vw;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black; }
+
+#user-friends {
+  width: 15%;
+  height: auto;
+  margin: 6px;
+  border-right: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column; }
+
+#people {
+  height: 50%;
+  width: 100%;
+  border-bottom: 1px solid gainsboro;
+  overflow-y: scroll; }
+
+#people::-webkit-scrollbar {
+  display: none; }
+
+#friends {
+  margin-top: 4px;
+  height: 50%;
+  width: 100%;
+  overflow-y: scroll; }
+
+#friends::-webkit-scrollbar {
+  display: none; }
+
+#fees-posts {
+  width: 50%;
+  height: 99%;
+  margin-top: 4px; }
+
+#new-post-form {
+  height: 12%; }
+
+#posts-lists-container {
+  height: 85%;
+  overflow-y: scroll; }
+
+#posts-lists-container::-webkit-scrollbar {
+  display: none; }

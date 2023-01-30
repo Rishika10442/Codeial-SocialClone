@@ -1,0 +1,16 @@
+<footer>
+   
+        <div class="reserved">
+            <i class="fa-solid fa-c"></i>
+            Rishika Gupta <br>
+            All rights reserved
+        </div>
+        <div class="linking">
+            <a href="/">Home</a>
+            <% if(locals.user) {%>
+                <a href="/users/profile/<%= locals.user.id %>">Profile</a>
+            <%} %>
+            
+        </div>
+    
+</footer>

@@ -1,0 +1,28 @@
+footer{
+    height: 60px;
+    width: 99vw;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    background-color: grey;
+    color: white;
+}
+
+.reserved{
+    height: 99%;
+    width: 30%;
+    border:1px solid red;
+}
+.linking{
+    height: 99%;
+    width: 30%;
+    border:1px solid green;
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
